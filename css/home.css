@@ -1,5 +1,5 @@
 /* homepage */
-html, body { color: #fff; height: 100%; background: -webkit-linear-gradient(75deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9)60%, rgba(255, 255, 255, 0) 100%); background: linear-gradient(75deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9)60%, rgba(255, 255, 255, 0) 100%); margin: 0; }
+html, body { color: #fff; height: 100%; background: -webkit-linear-gradient(75deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9)60%, rgba(255, 255, 255, 0) 100%); background: linear-gradient(75deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9)60%, rgba(255, 255, 255, 0) 100%); margin: 0; font-family: helvetica,arial,sans-serif;}
 .container { width: auto; margin: 0 auto; text-rendering: optimizeLegibility; padding-top: 100px; }
 .highlight { font-weight: bold; }
 h1 { margin: 0 0 5px 0; font-size: 5em; font-weight: 500; text-align: center; border-bottom: 2px solid #fff; }
