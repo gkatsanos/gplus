@@ -11,7 +11,7 @@ html, body {
     width: auto;
     margin: 0 auto;
     text-rendering: optimizeLegibility;
-    padding-top: 150px;
+    padding-top: 12vw;
 }
 .highlight {
     font-weight: bold;
