@@ -20,7 +20,7 @@
         </li>
         <li><a href="https://www.hackerrank.com/gkatsanos">HACKERRANK</a></li>
         <li>
-          <router-link to"/cv">CV</router-link>
+          <router-link to="/cv">CV</router-link>
         </li>
       </div>
     </section>
