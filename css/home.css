@@ -64,12 +64,12 @@ footer {
     width: 80%;
     margin: auto;
 }
-@media screen and (min-width: 1300px) {
+@media (min-width: 1300px) {
     .social {
         width: 59%;
     }
 }
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
     .list-flex {
         display: flex;
     }
@@ -81,7 +81,7 @@ footer {
     flex-grow: 1;
     text-align: center;
 }
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
     .list-flex > li:after {
         content: "//";
         font-size: 1.4rem;
