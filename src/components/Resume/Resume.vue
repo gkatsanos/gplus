@@ -1,7 +1,7 @@
 <template>
-  <section>
+  <div>
     A CV
-  </section>
+  </div>
 </template>
 
 <script>
