@@ -1,17 +1,24 @@
 <template>
   <div>
-    A CV
+    <position v-bind:position="position" v-for="position in positions"></position>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'hello',
-  data () {
-    return {
+  import position from '../Position/Position'
+  import positions from '../../store/positions.js'
+
+  export default {
+    components: {
+      'position': position
+    },
+    name: 'resume',
+    data () {
+      return {
+        positions: positions
+      }
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
