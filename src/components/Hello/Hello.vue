@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper text-center">
-      <h1 class="hello">ジョージ・カチャノス</h1>
+      <h1 class="hello">Hi, I am George</h1>
       <h2 class="subtitle">Berlin-Based Front-end Developer</h2>
     </div>
 </template>

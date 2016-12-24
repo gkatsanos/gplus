@@ -1,0 +1,11 @@
+.col-small {
+  width: 15%;
+}
+
+.col-large {
+  width: 84%
+}
+
+[class*='col'] {
+  display: inline-block;
+}

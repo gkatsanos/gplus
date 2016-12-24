@@ -10,12 +10,12 @@
 
   export default {
     components: {
-      'position': position
+      position
     },
     name: 'resume',
     data () {
       return {
-        positions: positions
+        positions
       }
     }
   }
