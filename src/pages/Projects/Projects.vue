@@ -1,21 +1,20 @@
 <template>
   <div>
-    <position v-bind:position="position" v-for="position in positions"></position>
+    <project></project>
   </div>
 </template>
 
 <script>
-  import position from '../Position/Position'
-  import positions from '../../store/positions.js'
+  import project from '../../components/Project/Project'
 
   export default {
     components: {
-      position
+      project
     },
-    name: 'resume',
+    name: 'projects',
     data () {
       return {
-        positions
+
       }
     }
   }

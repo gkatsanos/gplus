@@ -3,14 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
-import Resume from './components/Resume/Resume'
-import Hello from './components/Hello/Hello'
+import Resume from './pages/Resume/Resume'
+import Hello from './pages/Hello/Hello'
+import Projects from './pages/Projects/Projects'
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/', component: Hello },
-  { path: '/cv', component: Resume }
+  { path: '/resume', component: Resume },
+  { path: '/projects', component: Projects }
 ]
 
 const router = new VueRouter({

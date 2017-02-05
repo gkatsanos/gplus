@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
-      <h1 class="hello">George Katsanos</h1>
-      <h2 class="subtitle">Front-end Developer based in Berlin.</h2>
+      <h1 class="hello">gplus.gr</h1>
+      <h2 class="subtitle">front end developer</h2>
     </div>
 </template>
 
