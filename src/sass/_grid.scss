@@ -1,0 +1,29 @@
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-content {
+  flex: 80%;
+}
+
+.navigation {
+  flex: 20%;
+}
+
+.flex-distribute {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.skills {
+  max-width: 410px;
+  line-height: 2.5rem;
+}

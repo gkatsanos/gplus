@@ -2,12 +2,12 @@
 
 <template>
   <section>
-    <div class="container">
-    <transition name="fade" appear mode="out-in">
-      <router-view></router-view>
-    </transition>
+    <div class="main-content" role="main">
+      <transition name="fade" appear mode="out-in">
+        <router-view></router-view>
+      </transition>
     </div>
-    <footer>
+    <nav class="navigation" role="navigation">
       <div class="container">
         <ul class="social list-flex">
             <navigation></navigation>
