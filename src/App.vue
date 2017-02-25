@@ -8,13 +8,8 @@
       </transition>
     </div>
     <nav class="navigation" role="navigation">
-      <div class="container">
-        <ul class="social list-flex">
-            <navigation></navigation>
-        </ul>
-      </div>
-    </section>
-  </footer>
+      <navigation></navigation>
+    </nav>
   </section>
 </template>
 

@@ -1,8 +1,21 @@
+<style src="./navigation.scss" lang="scss" scoped></style>
+
 <template>
   <div>
-    <router-link to="/">intro</router-link>
-    <router-link to="/resume">résumé</router-link>
-    <router-link to="/projects">projects</router-link>
+    <ul>
+      <li>
+        <router-link to="/" exact>intro</router-link>
+      </li>
+      <li>
+        <router-link to="/resume">résumé</router-link>
+      </li>
+      <li>
+        <router-link to="/projects">projects</router-link>
+      </li>
+      <li>
+        <router-link to="/projects">writings</router-link>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -15,8 +28,3 @@
     }
   }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
