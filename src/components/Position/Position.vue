@@ -1,8 +1,13 @@
+<style src="./position.scss" lang="scss" scoped></style>
+
 <template>
   <div class="position" itemscope itemtype="http://schema.org/Organization">
     <h3>
       <span class="highlight">//</span>
-      {{ position.timePeriod }}
+      <span class="date">
+        <time datetime="">{{ position.timePeriod.from }}</time> -
+        <time datetime="">{{ position.timePeriod.to }}</time>
+      </span>
       <span class="company-name" itemprop="name">
         {{ position.companyName }}
       </span>
@@ -23,8 +28,3 @@
     }
   }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>

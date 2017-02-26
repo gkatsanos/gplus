@@ -3,11 +3,11 @@
 <template>
     <div class="flex flex-distribute">
       <div>
-        <h1 class="hello">gplus.gr</h1>
+        <h1 class="hello">george<span class="highlight">.</span>katsanos</h1>
         <h2 class="subtitle">front end development</h2>
       </div>
       <div class="skills">
-        SCSS & JS architecture // ES6 // performance optimization // semantic HTML // web animations //<br> training & mentoring
+        SCSS & JS architecture <span class="highlight">//</span> ES6 <span class="highlight">//</span> performance optimization <span class="highlight">//</span> semantic HTML <span class="highlight">//</span> web animations <span class="highlight">//</span><br> training & mentoring
       </div>
       <div class="social-links" role="navigation">
         <a href="https://github.com/gkatsanos/" target="_blank">

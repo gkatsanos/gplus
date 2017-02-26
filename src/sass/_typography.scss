@@ -29,7 +29,6 @@ h2,
 .h2 {
   font-size: $font-h2;
   line-height: 42px;
-  margin-top: 21px;
   margin-bottom: 21px;
 }
 
@@ -37,7 +36,6 @@ h3,
 .h3 {
   font-size: $font-h3;
   line-height: 42px;
-  margin-top: 21px;
   margin-bottom: 0px;
 }
 
@@ -45,7 +43,6 @@ h4,
 .h4 {
   font-size: $font-h4;
   line-height: 21px;
-  margin-top: 21px;
   margin-bottom: 0px;
 }
 
@@ -56,3 +53,11 @@ h4,
 .bold {
   font-weight: 700;
 }
+
+.date {
+  color: $gray;
+  font-weight: normal;
+  display: inline-block;
+  margin-right: 15px;
+}
+
