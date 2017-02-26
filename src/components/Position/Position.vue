@@ -7,9 +7,9 @@
         {{ position.companyName }}
       </span>
     </h3>
-    <div itemprop="position__description">
+    <p itemprop="position__description">
       {{ position.jobDescription }}
-    </div>
+    </p>
   </div>
 </template>
 

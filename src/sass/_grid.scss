@@ -7,11 +7,12 @@ section {
 }
 
 .main-content {
-  flex: 90%;
+  flex: 0 0 90%;
 }
 
 .navigation {
-  flex: 10%;
+  flex: 0 0 10%;
+  margin-left: 30px;
 }
 
 .flex {
