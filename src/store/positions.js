@@ -1,20 +1,26 @@
 export default [
   {
     'id': 0,
-    'timePeriod': '2015-2016',
-    'companyName': 'Rocket',
-    'jobDescription': 'Built Front-end of Bonativo.de, Foodora (Corporate), Zinsgold.de, participated in Zalando Php 2 React migration. Worked on SASS architectecture, setup build workflows using Gulp/Grunt and guided other junior Front-end Developers. Currently re-designing new Rocket-Internet.de corporate website'
+    'timePeriod': '01.2015-Present',
+    'companyName': 'Rocket Internet',
+    'jobDescription': 'In Rocket, as Senior/Lead Front-end Developer, I implemented User Interfaces and Front-end stacks for ventures such as Foodora, Bonativo, Zinsgold, Zalando. I was responsible for ensuring coding standards, and setting up asset building with Gulp or Webpack.'
   },
   {
     'id': 1,
-    'timePeriod': '2015-2016',
-    'companyName': 'Rocket',
-    'jobDescription': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ipsa consequuntur voluptate iure. Non, commodi maxime nesciunt. Magni odit dignissimos dolorum modi vitae earum.'
+    'timePeriod': '04.2013-12.2014',
+    'companyName': 'One Agency',
+    'jobDescription': 'ONE Agency is a technical web agency, part of Ausy Group with offices in Leuven, Brussels and Ghent. As a Senior Front-end Developer, I developed the Front-end stack of a Content Management System provided to the Belgian Government.'
   },
   {
     'id': 2,
-    'timePeriod': '2015-2016',
-    'companyName': 'Rocket',
-    'jobDescription': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ipsa consequuntur voluptate iure. Non, commodi maxime nesciunt. Magni odit dignissimos dolorum modi vitae earum.'
+    'timePeriod': '11.2010-03.2013',
+    'companyName': 'European Commission',
+    'jobDescription': 'As part of the Human Resources and Internal Communications unit, I improved the User Experience and Front-end Performance of the European Commission Intranet portal. I also coached, supported and mentored Junior webmasters in topics of semantic & scalable HTML and CSS.'
+  },
+  {
+    'id': 3,
+    'timePeriod': '04.2010-10.2010',
+    'companyName': 'Belgacom',
+    'jobDescription': 'Belgacom (now Proximus) is the leading telecommunications company of Belgium, operating in the Belgian and international market. I was part of the Front-end team of Skynet.be, working closely with the Product Owner and UX Designers.'
   }
 ]

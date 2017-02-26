@@ -1,11 +1,12 @@
 <template>
   <div class="position margin-bottom-m" itemscope itemtype="http://schema.org/Organization">
-    <div class="position__time col-small font-lg">
+    <h3 class="position__time">
+      <span class="highlight">//</span>
       {{ position.timePeriod }}
-    </div>
-    <div class="position__company-name col-large font-lg companyName" itemprop="name">
-      {{ position.companyName }}
-    </div>
+      <span class="position__company-name companyName" itemprop="name">
+        {{ position.companyName }}
+      </span>
+    </h3>
     <div itemprop="position__description">
       {{ position.jobDescription }}
     </div>

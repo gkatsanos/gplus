@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-distribute">
+    <div class="flex flex-distribute">
       <div>
         <h1 class="hello">gplus.gr</h1>
         <h2 class="subtitle">front end development</h2>
@@ -25,8 +25,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>

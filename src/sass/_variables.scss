@@ -1,3 +1,19 @@
 // colors
 $red : #F52E2E;
 $white : #FFF;
+
+// viewports
+$breakpoints: (
+    "phone":        400px,
+    "tablet":       768px,
+    "tablet-wide":  1024px,
+    "desktop":      1248px,
+    "desktop-wide": 1440px
+);
+
+// fonts
+$font-base: 16px;
+$font-h1: 68px;
+$font-h2: 42px;
+$font-h3: 26px;
+$font-h4: 18px;

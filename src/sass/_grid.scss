@@ -7,15 +7,18 @@ section {
 }
 
 .main-content {
-  flex: 80%;
+  flex: 90%;
 }
 
 .navigation {
-  flex: 20%;
+  flex: 10%;
+}
+
+.flex {
+  display: flex;
 }
 
 .flex-distribute {
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 100vh;

@@ -22,6 +22,10 @@ body {
     max-width: 1024px;
 }
 
+.highlight {
+  color: $red;
+}
+
 /* Enter and leave animations can use different */
 /* durations and timing functions.              */
 .fade-enter-active {

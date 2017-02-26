@@ -1,0 +1,15 @@
+@import '../../sass/variables';
+@import '../../sass/mixins/responsive';
+
+.resume {
+  align-items: center;
+}
+
+.work-experience {
+  flex: 65%;
+}
+
+.education {
+  flex: 35%;
+  margin-left: 30px;
+}
