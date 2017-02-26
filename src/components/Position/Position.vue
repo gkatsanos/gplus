@@ -1,5 +1,3 @@
-<style src="./position.scss" lang="scss" scoped></style>
-
 <template>
   <div class="position" itemscope itemtype="http://schema.org/Organization">
     <h3>
