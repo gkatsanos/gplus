@@ -1,3 +1,10 @@
+@import '../../sass/variables';
+
 a {
   padding-right: 10px;
+  &:hover {
+    i {
+      color: $red;
+    }
+  }
 }
