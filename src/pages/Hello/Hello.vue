@@ -1,3 +1,5 @@
+<style src="./hello.scss" lang="scss" scoped></style>
+
 <template>
     <div class="flex flex-distribute">
       <div>
@@ -8,10 +10,22 @@
         SCSS & JS architecture // ES6 // performance optimization // semantic HTML // web animations //<br> training & mentoring
       </div>
       <div class="social-links" role="navigation">
-        <a href="#">github</a>
-        <a href="#">stackoverflow</a>
-        <a href="#">linkedin</a>
-        <a href="#">medium</a>
+        <a href="https://github.com/gkatsanos/" target="_blank">
+          <i class="icon-github"></i>
+          github
+        </a>
+        <a href="stackoverflow.com/users/458060/george-katsanos" target="_blank">
+          <i class="icon-stackoverflow"></i>
+          stackoverflow
+        </a>
+        <a href="https://www.linkedin.com/in/georgekatsanos" target="_blank">
+          <i class="icon-linkedin-square"></i>
+          linkedin
+        </a>
+        <a href="https://medium.com/@gplusgr" target="_blank">
+          <i class="icon-medium"></i>
+          medium
+        </a>
       </div>
     </div>
 </template>

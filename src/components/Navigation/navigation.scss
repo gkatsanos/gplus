@@ -1,18 +1,21 @@
 @import '../../sass/variables';
+@import '../../sass/mixins/responsive';
 
 .navigation {
   flex: 20%;
 }
 
 ul {
-  height: 100vh;
   margin: 0;
   list-style-type: none;
   padding: 0;
-  border-left: 1px solid #8A8A89;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
+  @include mq('tablet-wide') {
+    border-left: 1px solid #8A8A89;
+    flex-direction: column;
+    height: 100vh;
+  }
 }
 
 li {
@@ -21,7 +24,7 @@ li {
 
 a {
   display: block;
-  padding-left: 13px;
+  padding-left: 18px;
   &:before {
     content: '';
     border-radius: 50%;
@@ -29,12 +32,18 @@ a {
     height: 15px;
     position: absolute;
     left: -8px;
-    top: 4px;
+    top: 7px;
     background: $white;
+    transition: all 0.2s;
   }
   &.router-link-active {
+    font-weight: 700;
     &:before {
       background: $red;
+      width: 21px;
+      height: 21px;
+      left: -11px;
+      top: 4px;
     }
   }
 }

@@ -19,17 +19,15 @@ body {
 /* Enter and leave animations can use different */
 /* durations and timing functions.              */
 .fade-enter-active {
-  transition: all .3s ease;
+  transition: all .3s ease-out;
 }
 .fade-leave-active {
-  transition: all .4s ease;
+  transition: all .3s ease-in;
 }
 .fade-leave-to
 /* .slide-fade-leave-active for <2.1.8 */ {
-  transform: translateY(110px);
   opacity: 0;
 }
 .fade-enter {
-  transform: translateY(-110px);
   opacity: 0;
 }

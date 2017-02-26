@@ -1,18 +1,30 @@
 section {
-  display: flex;
   max-width: 1440px;
-  margin: auto;
+  margin: 0;
   padding-left: 30px;
   padding-right: 30px;
+  flex-direction: column;
+  height: 100vh;
+  @include mq('tablet-wide') {
+    flex-direction: row;
+  }
 }
 
 .main-content {
   flex: 0 0 90%;
+  order: 2;
+  @include mq('tablet-wide') {
+    order: 0;
+  }
 }
 
 .navigation {
   flex: 0 0 10%;
   margin-left: 30px;
+  order: 1;
+  @include mq('tablet-wide') {
+    order: 0;
+  }
 }
 
 .flex {
@@ -22,7 +34,6 @@ section {
 .flex-distribute {
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh;
 }
 
 .skills {

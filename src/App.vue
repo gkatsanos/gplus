@@ -1,7 +1,7 @@
 <style src="./sass/main.scss" lang="scss"></style>
 
 <template>
-  <section>
+  <section class="flex">
     <div class="main-content flex" role="main">
       <transition name="fade" appear mode="out-in">
         <router-view></router-view>

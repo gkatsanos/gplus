@@ -13,7 +13,7 @@
         <router-link to="/projects">projects</router-link>
       </li>
       <li>
-        <router-link to="/projects">writings</router-link>
+        <a href="https://medium.com/@gplusgr" target="_blank">writings</a>
       </li>
     </ul>
   </div>
