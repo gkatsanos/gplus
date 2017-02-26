@@ -17,3 +17,17 @@
 img {
   margin-bottom: 15px;
 }
+
+.contact-info {
+  text-align: center;
+  border-bottom: 1px solid darken($gray, 30%);
+  padding-bottom: 15px;
+}
+
+.address {
+  justify-content: space-between;
+}
+
+.certifications {
+  margin-top: 42px;
+}

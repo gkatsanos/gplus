@@ -15,12 +15,14 @@
                       /static/me_professional@2x.png 2x"
               alt="Georgios Katsanos photo"
         />
-        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="font-small">
-          <span itemprop="addressRegion">Berlin,</span>
-          <span itemprop="addressCountry">Germany</span>
-          <span class="highlight h4 bold">//</span>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="address flex font-small">
+          <span>
+            <span itemprop="addressRegion">Berlin</span>,
+            <span itemprop="addressCountry">Germany</span>
+          </span>
+          <span class="highlight bold">//</span>
           <span itemprop="telephone">+49 (0) 17681479434</span>
-          <span class="highlight h4 bold">//</span>
+          <span class="highlight bold">//</span>
           <a href="mailto:george@gplus.gr" itemprop="email">
     george@gplus.gr</a>
         </div>
@@ -28,8 +30,10 @@
       <div class="education">
         <h2>Education</h2>
         <education v-bind:education="education" v-for="education in educations"></education>
-        <h2 class="h3">Certifications</h2>
-        <education v-bind:education="education" v-for="education in certifications"></education>
+        <div class="certifications">
+          <h2>Certifications</h2>
+          <education v-bind:education="education" v-for="education in certifications"></education>
+        </div>
       </div>
     </div>
   </div>
