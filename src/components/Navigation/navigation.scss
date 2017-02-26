@@ -36,14 +36,20 @@ a {
     background: $white;
     transition: all 0.2s;
   }
-  &.router-link-active {
-    font-weight: 700;
+  &:active {
+    &:before {
+      transform: scale(0.8);
+    }
+  }
+  &:hover {
     &:before {
       background: $red;
-      width: 21px;
-      height: 21px;
-      left: -11px;
-      top: 4px;
+    }
+  }
+  &.router-link-active {
+    &:before {
+      background: $red;
+      transform: scale(1.3);
     }
   }
 }
