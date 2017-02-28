@@ -1,7 +1,7 @@
-<style src="./hello.scss" lang="scss" scoped></style>
+<style src="./intro.scss" lang="scss" scoped></style>
 
 <template>
-    <div class="flex flex-distribute">
+    <div class="intro flex flex-distribute">
       <div>
         <h1 class="hello">george<span class="highlight">.</span>katsanos</h1>
         <h2 class="subtitle">front end development</h2>

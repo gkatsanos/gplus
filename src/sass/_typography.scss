@@ -5,8 +5,11 @@ body {
 
 h2.subtitle {
   font-weight: 100;
-  font-size: 45px;
-  margin-top: 42px;
+   font-size: $font-h3;
+  @include mq('tablet') {
+    font-size: 45px;
+    margin-top: 42px;
+  }
 }
 
 a {
@@ -21,20 +24,29 @@ p {
 
 h1 {
   font-weight: 700;
-  font-size: $font-h1;
+  font-size: $font-h2;
+  @include mq('tablet') {
+    font-size: $font-h1;
+  }
   margin: 0 0 1rem 0;
 }
 
 h2,
 .h2 {
-  font-size: $font-h2;
+  font-size: $font-h3;
+  @include mq('tablet') {
+    font-size: $font-h2;
+  }
   line-height: 42px;
   margin-bottom: 21px;
 }
 
 h3,
 .h3 {
-  font-size: $font-h3;
+ font-size: $font-h4;
+  @include mq('tablet') {
+    font-size: $font-h3;
+  }
   line-height: 42px;
   margin-bottom: 0px;
 }

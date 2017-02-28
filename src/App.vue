@@ -2,7 +2,7 @@
 
 <template>
   <section class="flex">
-    <div class="main-content flex" role="main">
+    <div class="full-height flex main-content" role="main">
       <transition name="fade" appear mode="out-in">
         <router-view></router-view>
       </transition>

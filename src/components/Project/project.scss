@@ -1,0 +1,61 @@
+@import '../../sass/variables';
+@import '../../sass/mixins/responsive';
+
+// animate each project with nth child
+.project {
+  transition: all 0.2s;
+  height: 145px;
+  display: flex;
+  flex: 0 0 100%;
+  @include mq('tablet') {
+    flex: 0 0 49%;
+  }
+  @include mq('tablet-wide') {
+    flex: 0 0 31%;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &.dark {
+    background-color: $darkgray;
+  }
+  &.white {
+    background-color: $white;
+    border: 1px solid $darkgray;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+  }
+}
+
+.foodora:hover {
+  background-color: #D70F64;
+}
+
+.zinsgold:hover {
+  background-color: #0064E1;
+}
+
+.meisterclass:hover {
+  background-color: #7285B0;
+}
+
+.movierama:hover,
+.bonativo:hover {
+  background-color: #000;
+}
+
+.white {
+  img {
+    filter: saturate(0%);
+    transition: all 0.2s;
+  }
+  &:hover {
+    img {
+      filter: none;
+    }
+  }
+}

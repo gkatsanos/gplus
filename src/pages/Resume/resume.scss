@@ -6,12 +6,16 @@
 }
 
 .work-experience {
-  flex: 64%;
+  @include mq('desktop') {
+    flex: 64%;
+  }
 }
 
 .right-column {
-  flex: 36%;
-  margin-left: 50px;
+  @include mq('desktop') {
+   flex: 36%;
+    margin-left: 50px;
+  }
 }
 
 img {

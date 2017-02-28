@@ -4,13 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
 import Resume from './pages/Resume/Resume'
-import Hello from './pages/Hello/Hello'
+import Intro from './pages/Intro/Intro'
 import Projects from './pages/Projects/Projects'
 
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: Hello },
+  { path: '/', component: Intro },
   { path: '/resume', component: Resume },
   { path: '/projects', component: Projects }
 ]

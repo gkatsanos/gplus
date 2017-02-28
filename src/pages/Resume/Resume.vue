@@ -1,7 +1,7 @@
 <style src="./resume.scss" lang="scss" scoped></style>
 
 <template>
-  <div class="resume flex">
+  <div class="resume full-height flex-desktop">
     <div class="work-experience">
       <h2>Work Experience</h2>
       <position v-bind:position="position" v-for="position in positions"></position>
@@ -54,7 +54,9 @@
     name: 'resume',
     data () {
       return {
-        positions, educations, certifications
+        positions,
+        educations,
+        certifications
       }
     }
   }

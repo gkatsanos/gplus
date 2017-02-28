@@ -4,9 +4,12 @@ html {
 }
 
 body {
-    background-image: linear-gradient(-45deg, rgba(0,0,0,0.40) 0%, rgba(0,0,0,0.9) 58%), url('/static/background.jpg');
-    background-repeat: no-repeat, no-repeat;
-    background-position: right top;
+    background: black;
+    @include mq('tablet') {
+      background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 1) 100%), url("/static/background.jpg");
+      background-repeat: no-repeat, no-repeat;
+      background-position: right top;
+    }
     color: #fff;
     margin: 0;
     text-rendering: optimizeLegibility;
@@ -16,13 +19,23 @@ body {
   color: $red;
 }
 
+.hello {
+  transition: all 0.2s;
+  transform: translate3d(0,0,0);
+  opacity: 1;
+}
 /* Enter and leave animations can use different */
 /* durations and timing functions.              */
 .fade-enter-active {
-  transition: all .3s ease-out;
+  transition: all .3s ease-in;
+  /* enable this as well as the one above to animate individual elements
+  .hello {
+    transform: translate3d(0,-500px,0);
+    opacity: 0;
+  }*/
 }
 .fade-leave-active {
-  transition: all .3s ease-in;
+  transition: all .3s ease-out;
 }
 .fade-leave-to
 /* .slide-fade-leave-active for <2.1.8 */ {
