@@ -1,6 +1,6 @@
 <template>
   <div class="flex projects">
-    <project @click="expandModal()" v-bind:project="project" v-for="project in projects"></project>
+    <project v-bind:project="project" v-for="project in projects"></project>
   </div>
 </template>
 
@@ -16,11 +16,6 @@
     data () {
       return {
         projects
-      }
-    },
-    methods: {
-      expandModal: function () {
-        console.log('clicked modal')
       }
     }
   }
