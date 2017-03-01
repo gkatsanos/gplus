@@ -1,3 +1,5 @@
+@import '../../sass/variables';
+
 .md-modal {
   position: fixed;
   top: 50%;
@@ -8,13 +10,12 @@
   height: auto;
   z-index: 2000;
   visibility: hidden;
-  backface-visibility: hidden;
   transform: translateX(-50%) translateY(-50%);
 }
 
 .md-content {
-  color: #fff;
-  background: #e74c3c;
+  color: $darkgray;
+  background: white;
   position: relative;
   border-radius: 3px;
   margin: 0 auto;
@@ -24,13 +25,13 @@
   visibility: visible;
 }
 
-.md-show.md-effect-11 .md-content {
+.md-show.md-effect-1 .md-content {
   transform: scale(1);
   opacity: 1;
 }
 
-.md-effect-11 .md-content {
-  transform: scale(2);
+.md-effect-1 .md-content {
+  transform: scale(0.7);
   opacity: 0;
   transition: all 0.3s;
 }

@@ -26,7 +26,7 @@ body {
 }
 
 .md-show + .md-overlay {
-  opacity: 1;
+  opacity: 0.8;
   visibility: visible;
 }
 
@@ -39,7 +39,7 @@ body {
   left: 0;
   z-index: 1000;
   opacity: 0;
-  background: rgba(143,27,15,0.8);
+  background: $darkgray;
   transition: all 0.3s;
 }
 
