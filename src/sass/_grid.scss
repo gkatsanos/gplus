@@ -23,7 +23,7 @@ section {
   order: 1;
   @include mq('tablet-wide') {
     order: 0;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 45px;
   }
 }
 

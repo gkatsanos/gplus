@@ -10,7 +10,7 @@ ul {
   @include mq('tablet-wide') {
     border-left: 1px solid #8A8A89;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
   }
 }
 
