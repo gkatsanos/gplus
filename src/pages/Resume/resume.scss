@@ -1,5 +1,5 @@
 @import '../../sass/variables';
-@import '../../sass/mixins/responsive';
+@import '../../sass/mixins/all';
 
 .resume {
   align-items: center;
@@ -43,30 +43,13 @@ img {
 }
 .fade-enter-active {
   .work-experience {
-    @for $i from 2 through 5 {
-      .position:nth-child(#{$i}) {
-        transition-delay: #{(($i - 1)*100)}ms;
-      }
-    }
+    @include loopchildren(2,5,0.1,'.position');
   }
   .education {
-    .position:nth-child(2) {
-      transition-delay: 0.4s;
-    }
-    .position:nth-child(3) {
-      transition-delay: 0.5s;
-    }
-    .position:nth-child(4) {
-      transition-delay: 0.6s;
-    }
+    @include loopchildren(2,4,0.4,'.position');
   }
   .certifications {
-    .position:nth-child(2) {
-      transition-delay: 0.7s;
-    }
-    .position:nth-child(3) {
-      transition-delay: 0.8s;
-    }
+    @include loopchildren(2,3,0.7,'.position');
   }
 }
 .fade-leave-active {
