@@ -8,3 +8,45 @@ a {
     }
   }
 }
+
+// Animate page
+.skills,
+.social-links,
+.title-subtitle {
+  transition: all .5s ease-in;
+  transform: translate3d(0,0,0);
+}
+.fade-enter-active {
+  .title-subtitle {
+
+  }
+  .skills {
+    transition-delay: 0.2s;
+  }
+  .social-links {
+    transition-delay: 0.3s;
+  }
+}
+.fade-leave-active {
+  transition: all .5s ease-out;
+}
+.fade-leave-to {
+  .title-subtitle {
+    opacity: 0;
+  }
+  .skills,
+  .social-links {
+    opacity: 0;
+    transform: translate3d(0,40px,0);
+  }
+}
+.fade-enter {
+  .title-subtitle {
+    opacity: 0;
+  }
+  .skills,
+  .social-links {
+    opacity: 0;
+    transform: translate3d(0,40px,0);
+  }
+}

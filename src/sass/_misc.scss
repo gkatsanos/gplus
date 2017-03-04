@@ -43,24 +43,3 @@ body {
   background: $darkgray;
   transition: all 0.3s;
 }
-
-/* Enter and leave animations can use different */
-/* durations and timing functions.              */
-.fade-enter-active {
-  transition: all .3s ease-in;
-  /* enable this as well as the one above to animate individual elements
-  .hello {
-    transform: translate3d(0,-500px,0);
-    opacity: 0;
-  }*/
-}
-.fade-leave-active {
-  transition: all .3s ease-out;
-}
-.fade-leave-to
-/* .slide-fade-leave-active for <2.1.8 */ {
-  opacity: 0;
-}
-.fade-enter {
-  opacity: 0;
-}
