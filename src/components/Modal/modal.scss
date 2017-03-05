@@ -14,11 +14,12 @@
 }
 
 .md-content {
-  color: $darkgray;
-  background: white;
+  background: $darkgray;
   position: relative;
   border-radius: 3px;
   margin: 0 auto;
+  padding: 30px;
+  box-shadow: 10px 10px 132px 16px rgba(0,0,0,0.35);
 }
 
 .md-show {

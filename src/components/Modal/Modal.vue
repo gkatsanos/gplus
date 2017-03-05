@@ -3,9 +3,8 @@
 <template>
   <div v-bind:class="{ 'md-show' : visible }" class="md-modal md-effect-1" id="modal-1">
     <div class="md-content">
-      <h3>{{ project.name }}</h3>
       {{ project.description }}
-      <button class="md-close">Close me!</button>
+      <a v-bind:url="project.url">Take me there</a>
     </div>
   </div>
 </template>
