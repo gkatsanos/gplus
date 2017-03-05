@@ -67,7 +67,7 @@ export default [
     'contrast': 'dark',
     'timePeriod': '08/2016-11/2016',
     'name': 'zinsgold',
-    'url': 'zinsgold.de',
+    'url': 'http://zinsgold.de',
     'description': 'Zinsgold is an online B2C platform for long term deposit and investment management.'
   },
   {
@@ -94,7 +94,7 @@ export default [
     'contrast': 'white',
     'timePeriod': '01/2017-04/2017',
     'name': 'rocketinternet',
-    'url': 'rocket-internet.de',
+    'url': 'http://rocket-internet.de',
     'description': 'Rocket Internet SE is a German Internet company headquartered in Berlin. The company builds online startups and owns shareholdings in various models of internet retail businesses. The company model is known as a startup studio or a venture builder. I am the Front-end Developer responsible for the rebranding and redesign of the corporate website.'
   },
   {
