@@ -1,3 +1,5 @@
+<style src="./projects.scss" lang="scss" scoped></style>
+
 <template>
   <div class="flex projects">
     <project v-bind:project="project" v-for="project in projects"></project>

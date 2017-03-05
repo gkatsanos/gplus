@@ -53,7 +53,7 @@ img {
   }
 }
 .fade-leave-active {
-  transition: all .5s ease-out;
+  transition: all .3s ease-in-out;
 }
 .fade-leave-to {
   opacity: 0;

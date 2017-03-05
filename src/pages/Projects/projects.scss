@@ -1,0 +1,19 @@
+@import '../../sass/variables';
+@import '../../sass/mixins/all';
+
+// Animate page
+.fade-enter-active {
+  @include loopchildren(1,12,0.1,'.project');
+}
+.fade-leave-active {
+  transition: all .3s ease;
+}
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-enter {
+  opacity: 0;
+  .project {
+    opacity: 0;
+  }
+}
