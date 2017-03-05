@@ -77,7 +77,7 @@ export default [
     'timePeriod': '01/2017-03/2017',
     'name': 'gplus',
     'url': 'http://www.gplus.gr',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque temporibus laudantium officia explicabo nisi adipisci cum quaerat corporis non tempore, fugit! Tempora quae ipsa eius est labore repellat excepturi voluptates.Culpa reiciendis tempore placeat corporis vero ratione inventore blanditiis pariatur praesentium, eaque repudiandae, consectetur facere minima magnam vel tempora, repellat. Error maiores iusto doloremque fugiat obcaecati eum ab, commodi quia.'
+    'description': 'Redesign in Sketch and implementation in Vue.js of my personal portfolio.'
   },
   {
     'id': 9,
