@@ -9,7 +9,7 @@
         {{ education.institution }}
       </span>
     </h4>
-    <p itemprop="position__description">
+    <p itemprop="description">
       {{ education.description }}
     </p>
   </div>

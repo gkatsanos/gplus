@@ -22,7 +22,7 @@
     </li>
     <li itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
-      <a href="https://medium.com/@gplusgr" target="_blank">
+      <a href="https://medium.com/@gplusgr" target="_blank" rel="nofollow">
         <span itemprop="name">writings</span>
       </a>
     </li>
