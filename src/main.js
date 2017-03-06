@@ -8,7 +8,6 @@ import Intro from './pages/Intro/Intro'
 import Projects from './pages/Projects/Projects'
 
 Vue.use(VueRouter)
-Vue.config.performance = true
 
 const routes = [
   { path: '/', component: Intro },
