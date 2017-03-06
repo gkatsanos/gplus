@@ -19,11 +19,20 @@ section {
 
 .navigation {
   flex: 0 0 8%;
-  margin: 30px 0 30px 0;
+  padding: 30px 0 30px 0;
   order: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: black;
   @include mq('tablet-wide') {
+    background: none;
+    width: auto;
+    position: static;
     order: 0;
     margin: 0 0 0 45px;
+    padding: 0;
   }
 }
 
@@ -48,5 +57,8 @@ section {
 }
 
 .full-height {
-  min-height: 100vh;
+  min-height: calc(100vh - 50px);
+  @include mq('tablet') {
+    min-height: 100vh;
+  }
 }

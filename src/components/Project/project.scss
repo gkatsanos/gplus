@@ -3,6 +3,7 @@
 
 // animate each project with nth child
 .project {
+  position: relative;
   transition: all 0.2s;
   height: 145px;
   display: flex;

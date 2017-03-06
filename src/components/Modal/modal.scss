@@ -1,16 +1,20 @@
 @import '../../sass/variables';
+@import '../../sass/mixins/all';
 
 .md-modal {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 500px;
   height: auto;
   z-index: 2000;
   visibility: hidden;
   transform: translateX(-50%) translateY(-50%);
   backface-visibility: hidden;
   -webkit-filter: blur(0);
+  width: 85%;
+  @include mq('tablet') {
+    max-width: 400px;
+  }
 }
 
 .md-content {
