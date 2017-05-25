@@ -1,32 +1,32 @@
 <style src="./navigation.scss" lang="scss" scoped></style>
 
 <template>
-  <ul itemscope itemtype="http://schema.org/BreadcrumbList">
-    <li itemprop="itemListElement" itemscope
+  <nav class="container" role="navigation" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <div class="menu-item" itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
       <router-link to="/" exact itemprop="item">
-        <span itemprop="name">intro</span>
+        <div class="text" itemprop="name">intro</div>
       </router-link>
-    </li>
-    <li itemprop="itemListElement" itemscope
+    </div>
+    <div class="menu-item" itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
       <router-link to="/resume" itemprop="item">
-        <span itemprop="name">résumé</span>
+        <div class="text" itemprop="name">résumé</div>
       </router-link>
-    </li>
-    <li itemprop="itemListElement" itemscope
+    </div>
+    <div class="menu-item" itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
       <router-link to="/projects" itemprop="item">
-        <span itemprop="name">projects</span>
+        <div class="text" itemprop="name">projects</div>
       </router-link>
-    </li>
-    <li itemprop="itemListElement" itemscope
+    </div>
+    <div class="menu-item" itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
       <a href="https://medium.com/@gplusgr" target="_blank" rel="nofollow">
-        <span itemprop="name">writings</span>
+        <div class="text" itemprop="name">writings</div>
       </a>
-    </li>
-  </ul>
+    </div>
+  </nav>
 </template>
 
 <script>

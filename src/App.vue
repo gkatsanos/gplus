@@ -7,9 +7,9 @@
         <router-view></router-view>
       </transition>
     </div>
-    <nav class="navigation" role="navigation">
+    <transition name="menu" appear>
       <navigation></navigation>
-    </nav>
+    </transition>
   </section>
 </template>
 

@@ -14,7 +14,7 @@
           <i class="icon-github"></i>
           github
         </a>
-        <a rel="nofollow" href="stackoverflow.com/users/458060/george-katsanos" target="_blank">
+        <a rel="nofollow" href="http://stackoverflow.com/users/458060/george-katsanos" target="_blank">
           <i class="icon-stackoverflow"></i>
           stackoverflow
         </a>
