@@ -2,14 +2,23 @@ export default [
   {
     'id': 0,
     'timePeriod': {
-      'from': '01.2015',
+      'from': '02.2018',
       'to': 'Present'
+    },
+    'companyName': 'HERE Technologies',
+    'jobDescription': 'We are building an IoT location platform: an API built with Node and a single page web application built on Vue.js. The rest of the tech stack: docker, AWS, microservices, Jenkins, Selenium.'
+  },
+  {
+    'id': 1,
+    'timePeriod': {
+      'from': '01.2015',
+      'to': '01.2018'
     },
     'companyName': 'Rocket Internet',
     'jobDescription': 'In Rocket, as Senior/Lead Front-end Developer, I implemented User Interfaces and Front-end stacks for ventures such as Foodora, Bonativo, Zinsgold, Zalando. I was responsible for ensuring coding standards, and setting up asset building with Gulp or Webpack.'
   },
   {
-    'id': 1,
+    'id': 2,
     'timePeriod': {
       'from': '04.2013',
       'to': '12.2014'
@@ -18,7 +27,7 @@ export default [
     'jobDescription': 'ONE Agency is a technical web agency, part of Ausy Group with offices in Leuven, Brussels and Ghent. As a Senior Front-end Developer, I developed the Front-end stack of a Content Management System provided to the Belgian Government.'
   },
   {
-    'id': 2,
+    'id': 3,
     'timePeriod': {
       'from': '11.2010',
       'to': '03.2013'
@@ -27,7 +36,7 @@ export default [
     'jobDescription': 'As part of the Human Resources and Internal Communications unit, I improved the User Experience and Front-end Performance of the European Commission Intranet portal. I also coached, supported and mentored Junior webmasters in topics of semantic & scalable HTML and CSS.'
   },
   {
-    'id': 3,
+    'id': 4,
     'timePeriod': {
       'from': '04.2010',
       'to': '10.2010'
