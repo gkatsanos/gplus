@@ -3,15 +3,6 @@ body {
   line-height: 1.5em;
 }
 
-h2.subtitle {
-  font-weight: 100;
-   font-size: $font-h3;
-  @include mq('tablet') {
-    font-size: 45px;
-    margin-top: 42px;
-  }
-}
-
 a {
   color: #fff;
   text-decoration: none;

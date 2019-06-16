@@ -2,58 +2,16 @@
 @import '../../sass/mixins/all';
 
 .container {
-  margin: 0;
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  padding-right: 30px;
   @include mq('tablet-wide') {
-    flex-direction: column;
-    height: 100vh;
+    margin-top: 20px;
   }
-}
-
-.container {
-  flex: 0 0 8%;
-  padding: 30px 0 30px 0;
-  order: 1;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: black;
-  @include mq('tablet-wide') {
-    background: none;
-    width: auto;
-    position: static;
-    order: 0;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-.menu-item {
-  position: relative;
 }
 
 a {
   display: block;
-  padding-left: 18px;
-  &:before {
-    content: '';
-    border-radius: 50%;
-    position: absolute;
-    left: -8px;
-    top: 7px;
-    background: $white;
-    width: 10px;
-    height: 10px;
-    transition: all 0.2s;
-    @include mq('phone') {
-      width: 15px;
-      height: 15px;
-    }
-  }
+  margin: 0 9px;
   &:active {
     &:before {
       transform: scale(0.8);
@@ -61,16 +19,13 @@ a {
   }
 
   &:hover {
-    color: $red;
-    &:before {
-      background: $red;
-    }
+    border-bottom: 1px solid $red;
   }
   &.router-link-active {
-    color: $red;
-    &:before {
-      background: $red;
-      transform: scale(1.3);
+    border-bottom: 1px solid $red;
+    &:first-letter {
+      color: $red;
+      font-weight: bold;
     }
   }
 }
@@ -79,7 +34,7 @@ a {
 // Animate Menu
 // Animate page
 .text {
-  transition: padding-left .5s ease-in;
+  transition: opacity .5s ease-in;
 }
 .menu-enter-active {
   // @include loopchildren(1,4,0.8,'.menu-item .text');

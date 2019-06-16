@@ -28,10 +28,6 @@ img {
   padding-bottom: 15px;
 }
 
-.address {
-  justify-content: space-between;
-}
-
 .certifications {
   margin-top: 42px;
 }
@@ -43,13 +39,13 @@ img {
 }
 .fade-enter-active {
   .work-experience {
-    @include loopchildren(2,5,0.1,'.position');
+    @include loopchildren(2,5,0.1,0.1,'.position');
   }
   .education {
-    @include loopchildren(2,4,0.4,'.position');
+    @include loopchildren(2,4,0.4,0.1,'.position');
   }
   .certifications {
-    @include loopchildren(2,3,0.7,'.position');
+    @include loopchildren(2,3,0.7,0.1,'.position');
   }
 }
 .fade-leave-active {

@@ -1,10 +1,10 @@
 // Loops through nth-children of provided className and applies
 // transition delay
-@mixin loopchildren($min, $max, $initialValue, $className) {
+@mixin loopchildren($min, $max, $initialValue, $step, $className) {
   @for $i from $min through $max {
     #{$className}:nth-child(#{$i}) {
       transition-delay: #{($initialValue)}s;
     }
-    $initialValue: $initialValue + 0.1;
+    $initialValue: $initialValue + $step;
   }
 }

@@ -1,22 +1,7 @@
-section {
-  max-width: 1440px;
+#app {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
-  flex-direction: column;
-  @include mq('tablet-wide') {
-    flex-direction: row;
-  }
-}
-
-.main-content {
-  flex: 0 0 90%;
-  order: 2;
-  @include mq('tablet-wide') {
-    padding-right: 30px;
-    order: 0;
-    border-right: 1px solid #8A8A89;
-  }
 }
 
 .flex {
@@ -32,16 +17,10 @@ section {
 .flex-distribute {
   flex-direction: column;
   justify-content: space-around;
-}
-
-.skills {
-  max-width: 410px;
-  line-height: 2.5rem;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .full-height {
-  min-height: calc(100vh - 50px);
-  @include mq('tablet') {
-    min-height: 100vh;
-  }
+  min-height: calc(100vh - 45px);
 }

@@ -23,9 +23,9 @@
             <span itemprop="addressRegion">Berlin</span>,
             <span itemprop="addressCountry">Germany</span>
           </span>
-          <span class="highlight bold">//</span>
+          <span class="highlight bold">&nbsp;//&nbsp;</span>
           <span itemprop="telephone">+49 (0) 17681479434</span>
-          <span class="highlight bold">//</span>
+          <span class="highlight bold">&nbsp;//&nbsp;</span>
           <a href="mailto:george@gplus.gr" itemprop="email">
     george@gplus.gr</a>
         </div>

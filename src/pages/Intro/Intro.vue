@@ -3,8 +3,18 @@
 <template>
     <div class="intro flex flex-distribute">
       <div class="title-subtitle">
-        <h1 class="hello">george<span class="highlight">.</span>katsanos</h1>
-        <h2 class="subtitle">front end development</h2>
+<!--        <h1 class="hello">george<span class="highlight">.</span>katsanos</h1>-->
+        <h2 class="subtitle">
+          <template v-for="(character, index) in headlineSplit">
+            <br v-if="character === '*'" class="newline" :key="index"/>
+            <span v-else-if="character === ' '" class="space" :key="index">
+              {{ character }}
+            </span>
+            <span v-else class="character" :key="index">
+              {{ character }}
+            </span>
+          </template>
+        </h2>
       </div>
       <div class="skills">
         SCSS & JS architecture
@@ -15,7 +25,7 @@
         <span class="highlight">//</span>
         semantic HTML <span class="highlight">//</span>
         web animations <span class="highlight">//</span>
-        <br> training & mentoring
+        training & mentoring
       </div>
       <div class="social-links" role="navigation">
         <a rel="nofollow" href="https://github.com/gkatsanos/" target="_blank">
@@ -40,10 +50,16 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'intro',
   data() {
     return {
+      headline: 'HUMAN-CENTERED*DESIGN & TECHNOLOGY',
     };
+  },
+  computed: {
+    headlineSplit() {
+      return this.headline.split('');
+    },
   },
 };
 </script>

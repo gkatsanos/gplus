@@ -1,7 +1,7 @@
-<style src="./projects.scss" lang="scss" scoped></style>
+<style src="./work.scss" lang="scss" scoped></style>
 
 <template>
-  <div class="flex projects">
+  <div class="flex work">
     <project :project="project" v-for="project in projects" :key="project.id"></project>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   components: {
     project,
   },
-  name: 'projects',
+  name: 'work',
   data() {
     return {
       projects,
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style scoped>
-  .projects {
+  .work {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;

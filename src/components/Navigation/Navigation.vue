@@ -1,7 +1,7 @@
 <style src="./navigation.scss" lang="scss" scoped></style>
 
 <template>
-  <nav class="container" role="navigation" itemscope itemtype="http://schema.org/BreadcrumbList">
+  <nav class="container flex" role="navigation" itemscope itemtype="http://schema.org/BreadcrumbList">
     <div class="menu-item" itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
       <router-link to="/" exact itemprop="item">
@@ -16,8 +16,8 @@
     </div>
     <div class="menu-item" itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
-      <router-link to="/projects" itemprop="item">
-        <div class="text" itemprop="name">projects</div>
+      <router-link to="/work" itemprop="item">
+        <div class="text" itemprop="name">work</div>
       </router-link>
     </div>
     <div class="menu-item" itemprop="itemListElement" itemscope
