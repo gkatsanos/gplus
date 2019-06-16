@@ -12,12 +12,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'modal',
-    props: ['project', 'visible'],
-    data () {
-      return {
-      }
-    }
-  }
+export default {
+  name: 'modal',
+  props: ['project', 'visible'],
+  data() {
+    return {
+    };
+  },
+};
 </script>

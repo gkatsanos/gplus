@@ -7,7 +7,15 @@
         <h2 class="subtitle">front end development</h2>
       </div>
       <div class="skills">
-        SCSS & JS architecture <span class="highlight">//</span> ES6 <span class="highlight">//</span> performance optimization <span class="highlight">//</span> semantic HTML <span class="highlight">//</span> web animations <span class="highlight">//</span><br> training & mentoring
+        SCSS & JS architecture
+        <span class="highlight">//</span>
+        ES6
+        <span class="highlight">//</span>
+        performance optimization
+        <span class="highlight">//</span>
+        semantic HTML <span class="highlight">//</span>
+        web animations <span class="highlight">//</span>
+        <br> training & mentoring
       </div>
       <div class="social-links" role="navigation">
         <a rel="nofollow" href="https://github.com/gkatsanos/" target="_blank">
@@ -33,9 +41,9 @@
 <script>
 export default {
   name: 'hello',
-  data () {
+  data() {
     return {
-    }
-  }
-}
+    };
+  },
+};
 </script>

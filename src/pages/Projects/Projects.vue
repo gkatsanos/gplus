@@ -2,25 +2,25 @@
 
 <template>
   <div class="flex projects">
-    <project v-bind:project="project" v-for="project in projects"></project>
+    <project :project="project" v-for="project in projects" :key="project.id"></project>
   </div>
 </template>
 
 <script>
-  import project from '../../components/Project/Project'
-  import projects from '../../store/projects.js'
+import project from '@/components/Project/Project.vue';
+import projects from '@/store/projects';
 
-  export default {
-    components: {
-      project
-    },
-    name: 'projects',
-    data () {
-      return {
-        projects
-      }
-    }
-  }
+export default {
+  components: {
+    project,
+  },
+  name: 'projects',
+  data() {
+    return {
+      projects,
+    };
+  },
+};
 </script>
 
 <style scoped>

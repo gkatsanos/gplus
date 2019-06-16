@@ -16,12 +16,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'education',
-    props: ['education'],
-    data () {
-      return {
-      }
-    }
-  }
+export default {
+  name: 'education',
+  props: ['education'],
+  data() {
+    return {
+    };
+  },
+};
 </script>

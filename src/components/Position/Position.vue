@@ -17,12 +17,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'position',
-    props: ['position'],
-    data () {
-      return {
-      }
-    }
-  }
+export default {
+  name: 'position',
+  props: ['position'],
+  data() {
+    return {
+    };
+  },
+};
 </script>

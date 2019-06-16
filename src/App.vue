@@ -1,5 +1,3 @@
-<style src="./sass/main.scss" lang="scss"></style>
-
 <template>
   <section id="app" class="flex">
     <div class="full-height flex main-content" role="main">
@@ -13,13 +11,15 @@
   </section>
 </template>
 
-<script>
-  import navigation from './components/Navigation/Navigation'
+<style src="./sass/main.scss" lang="scss"></style>
 
-  export default {
-    components: {
-      navigation
-    },
-    name: 'app'
-  }
+<script>
+import navigation from '@/components/Navigation/Navigation.vue';
+
+export default {
+  components: {
+    navigation,
+  },
+  name: 'app',
+};
 </script>
