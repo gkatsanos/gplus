@@ -19,12 +19,12 @@
       <div class="skills">
         SCSS & JS architecture
         <span class="highlight">//</span>
-        ES6
+        Vue, React, Node, Express
         <span class="highlight">//</span>
+        webpack & scaffolding
+        <br>
         performance optimization
         <span class="highlight">//</span>
-        semantic HTML <span class="highlight">//</span>
-        web animations <span class="highlight">//</span>
         training & mentoring
       </div>
       <div class="social-links" role="navigation">

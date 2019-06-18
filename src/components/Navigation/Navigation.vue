@@ -11,7 +11,7 @@
     <div class="menu-item" itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
       <router-link to="/resume" itemprop="item">
-        <div class="text" itemprop="name">résumé</div>
+        <div class="text" itemprop="name">curriculum vitae</div>
       </router-link>
     </div>
     <div class="menu-item" itemprop="itemListElement" itemscope
