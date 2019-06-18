@@ -15,7 +15,7 @@
 
 .right-column {
   @include mq('desktop') {
-   flex: 38%;
+    flex: 38%;
     margin-left: 100px;
   }
 }
