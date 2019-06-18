@@ -3,18 +3,20 @@
 
 .resume {
   align-items: center;
+  margin: auto;
+  max-width: 1400px;
 }
 
 .work-experience {
   @include mq('desktop') {
-    flex: 64%;
+    flex: 60%;
   }
 }
 
 .right-column {
   @include mq('desktop') {
-   flex: 36%;
-    margin-left: 50px;
+   flex: 38%;
+    margin-left: 100px;
   }
 }
 
