@@ -4,6 +4,7 @@
 .container {
   justify-content: center;
   padding-right: 30px;
+  margin-top: 10px;
   @include mq('tablet-wide') {
     margin-top: 20px;
   }

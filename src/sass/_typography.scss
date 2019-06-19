@@ -1,5 +1,5 @@
 body {
-  font-size: $font-base;
+  font-size: $font-normal;
   line-height: 1.5em;
 }
 
@@ -9,24 +9,23 @@ a {
 }
 
 p {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 21px;
 }
 
 h1 {
   font-weight: 700;
-  font-size: $font-h2;
+  font-size: $font-huge;
   @include mq('tablet') {
-    font-size: $font-h1;
+    font-size: $font-huge;
   }
   margin: 0 0 1rem 0;
 }
 
 h2,
 .h2 {
-  font-size: $font-h3;
   @include mq('tablet') {
-    font-size: $font-h2;
+    font-size: $font-xl;
   }
   line-height: 42px;
   margin-bottom: 21px;
@@ -34,19 +33,19 @@ h2,
 
 h3,
 .h3 {
- font-size: $font-h4;
+ font-size: $font-normal;
   @include mq('tablet') {
-    font-size: $font-h3;
+    font-size: $font-l;
   }
   line-height: 42px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 h4,
 .h4 {
-  font-size: $font-h4;
+  font-size: $font-normal;
   line-height: 21px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .font-small {
