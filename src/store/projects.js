@@ -32,7 +32,7 @@ export default [
     contrast: 'white',
     timePeriod: '1994-2000',
     name: 'capnamic',
-    description: 'I was asked to implement an MVP for the corporate website within 3 days, which I succesfully delivered. The tech stack included a complete Asset build pipeline with Gulp/Babel/BrowserSync, ES6 written JS, and a complete SCSS architecture.',
+    description: 'I implemented and delivered Capnamic\'s corporate website within 3 days. The tech stack included a complete Asset pipeline with Gulp/Babel/BrowserSync, ES6, and a from-scratch styling and overall project architecture.',
   },
   {
     id: 4,
@@ -86,7 +86,7 @@ export default [
     timePeriod: '03/2015-04/2015',
     name: 'meisterclass',
     url: false,
-    description: 'Meisterclass is an online courses website. I was responsible for the implementation of the rebranding.',
+    description: 'Meisterclass was an online courses website. I was responsible for the implementation of the rebranding. The company has stopped operations.',
   },
   {
     id: 10,
