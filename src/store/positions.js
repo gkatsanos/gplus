@@ -6,7 +6,7 @@ export default [
       to: 'Present',
     },
     companyName: 'HERE Technologies',
-    jobDescription: 'We are building an IoT location platform: an API built with Node and a single page web application built on Vue.js. The rest of the tech stack: docker, AWS, microservices, Jenkins, Selenium.',
+    jobDescription: 'As part of the Frontend team, I developed and maintained an SPA built with VueJS / Webpack / Mocha and SASS. I was also part of the Backend API team which built Microservices in NodeJS using Docker, AWS, Jenkins and Selenium.',
   },
   {
     id: 1,
