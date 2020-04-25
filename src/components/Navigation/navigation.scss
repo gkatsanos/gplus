@@ -2,7 +2,7 @@
 @import '../../sass/mixins/all';
 
 .container {
-  justify-content: center;
+  justify-content: flex-end;
   padding-right: 30px;
   margin-top: 10px;
   @include mq('tablet-wide') {
@@ -13,44 +13,25 @@
 a {
   display: block;
   margin: 0 9px;
+  padding-bottom: 2px;
   &:active {
     &:before {
       transform: scale(0.8);
     }
   }
-
   &:hover {
     border-bottom: 1px solid $red;
   }
   &.router-link-active {
     border-bottom: 1px solid $red;
-    &:first-letter {
-      color: $red;
-      font-weight: bold;
-    }
   }
 }
 
-
-// Animate Menu
-// Animate page
-.text {
-  transition: opacity .5s ease-in;
-}
-.menu-enter-active {
-  // @include loopchildren(1,4,0.8,'.menu-item .text');
-}
-.menu-leave-to {
-  opacity: 0;
-}
-.menu-enter {
-  .menu-item {
-    .text {
-      padding-left: 36px;
-      opacity: 0;
-      &:before {
-        transform: scale(0);
-      }
-    }
+.menu-item {
+  display: flex;
+  &:not(:last-child):after {
+    content: "//";
+    font-size: 25px;
+    color: $red;
   }
 }

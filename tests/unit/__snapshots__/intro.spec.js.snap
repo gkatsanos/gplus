@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intro renders content properly 1`] = `
+<div class="intro flex flex-distribute">
+  <div class="title-subtitle">
+    <h2 class="subtitle"><span class="character">
+              H
+            </span><span class="character">
+              U
+            </span><span class="character">
+              M
+            </span><span class="character">
+              A
+            </span><span class="character">
+              N
+            </span><span class="character">
+              -
+            </span><span class="character">
+              C
+            </span><span class="character">
+              E
+            </span><span class="character">
+              N
+            </span><span class="character">
+              T
+            </span><span class="character">
+              E
+            </span><span class="character">
+              R
+            </span><span class="character">
+              E
+            </span><span class="character">
+              D
+            </span><br class="newline"><span class="character">
+              D
+            </span><span class="character">
+              E
+            </span><span class="character">
+              S
+            </span><span class="character">
+              I
+            </span><span class="character">
+              G
+            </span><span class="character">
+              N
+            </span><span class="space">
+
+            </span><span class="character">
+              &amp;
+            </span><span class="space">
+
+            </span><span class="character">
+              T
+            </span><span class="character">
+              E
+            </span><span class="character">
+              C
+            </span><span class="character">
+              H
+            </span><span class="character">
+              N
+            </span><span class="character">
+              O
+            </span><span class="character">
+              L
+            </span><span class="character">
+              O
+            </span><span class="character">
+              G
+            </span><span class="character">
+              Y
+            </span></h2>
+  </div>
+  <div class="skills">
+    SCSS &amp; JS architecture
+    <span class="highlight">//</span>
+    Vue, React, Node, Express
+    <span class="highlight">//</span>
+    webpack &amp; scaffolding
+    <br>
+    performance optimization
+    <span class="highlight">//</span>
+    training &amp; mentoring
+  </div>
+  <div role="navigation" class="social-links"><a rel="nofollow" href="https://github.com/gkatsanos/" target="_blank"><i class="icon-github"></i>
+      github
+    </a> <a rel="nofollow" href="http://stackoverflow.com/users/458060/george-katsanos" target="_blank"><i class="icon-stackoverflow"></i>
+      stackoverflow
+    </a> <a rel="nofollow" href="https://www.linkedin.com/in/georgekatsanos" target="_blank"><i class="icon-linkedin-square"></i>
+      linkedin
+    </a> <a rel="nofollow" href="https://medium.com/@gplusgr" target="_blank"><i class="icon-medium"></i>
+      medium
+    </a></div>
+</div>
+`;

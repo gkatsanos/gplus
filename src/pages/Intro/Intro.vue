@@ -3,7 +3,6 @@
 <template>
     <div class="intro flex flex-distribute">
       <div class="title-subtitle">
-<!--        <h1 class="hello">george<span class="highlight">.</span>katsanos</h1>-->
         <h2 class="subtitle">
           <template v-for="(character, index) in headlineSplit">
             <br v-if="character === '*'" class="newline" :key="index"/>
