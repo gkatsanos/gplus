@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <transition name="menu" appear>
-      <navigation></navigation>
-    </transition>
+    <navigation></navigation>
     <div class="full-height flex main-content" role="main">
       <transition name="fade" appear mode="out-in">
         <router-view></router-view>

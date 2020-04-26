@@ -41,20 +41,3 @@ body {
   background: $darkgray;
   transition: all 0.3s;
 }
-
-// Animate Menu
-.menu-enter-active {
-  @include loopchildren(1,4,0.1,0.1,'.menu-item');
-}
-.menu-leave-active {
-  transition: all .3s ease;
-}
-.menu-leave-to {
-  opacity: 0;
-}
-.menu-enter {
-  opacity: 0;
-  .project {
-    opacity: 0;
-  }
-}
