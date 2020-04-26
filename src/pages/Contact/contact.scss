@@ -1,0 +1,47 @@
+@import '../../sass/variables';
+@import '../../sass/mixins/all';
+
+.contact {
+  align-items: center;
+  margin: auto;
+  max-width: 620px;
+}
+
+input, select, textarea {
+  width: 100%;
+  font-size: $font-medium;
+  margin-bottom: 10px;
+  background-color: $gray;
+  color: rgba($white, 0.6);
+  border: transparent;
+  resize: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing:content-box;
+}
+
+select {
+  border: 10px solid transparent;
+  width: 100%;
+  height: 25px;
+}
+
+button {
+  background: transparent;
+  color: $white;
+  font-size: $font-medium;
+  border-radius: 5px;
+  width: 100px;
+  padding: 8px;
+  &:hover {
+    cursor: pointer;
+    border-color: $red;
+    .send-mail-svg {
+      color: $red;
+    }
+  }
+}
+
+.send-mail-svg {
+  margin-left: 5px;
+}

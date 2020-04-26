@@ -19,7 +19,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './pages/Resume/Resume.vue'),
+      component: () => import(/* webpackChunkName: "resume" */ './pages/Resume/Resume.vue'),
     },
     {
       path: '/work',
@@ -27,7 +27,15 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './pages/Work/work.vue'),
+      component: () => import(/* webpackChunkName: "work" */ './pages/Work/Work.vue'),
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "contact" */ './pages/Contact/Contact.vue'),
     },
   ],
 });

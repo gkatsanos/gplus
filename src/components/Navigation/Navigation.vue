@@ -22,9 +22,9 @@
     </div>
     <div class="menu-item" itemprop="itemListElement" itemscope
         itemtype="http://schema.org/ListItem">
-      <a href="https://medium.com/@gplusgr" target="_blank" rel="nofollow">
-        <div class="text" itemprop="name">writings</div>
-      </a>
+      <router-link to="/contact" itemprop="item">
+        <div class="text" itemprop="name">say hello!</div>
+      </router-link>
     </div>
   </nav>
 </template>
