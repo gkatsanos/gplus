@@ -14,12 +14,12 @@
 <style src="./sass/main.scss" lang="scss"></style>
 
 <script>
-import navigation from '@/components/Navigation/Navigation.vue';
+import navigation from "@/components/Navigation/Navigation.vue";
 
 export default {
+  name: "App",
   components: {
     navigation,
   },
-  name: 'app',
 };
 </script>

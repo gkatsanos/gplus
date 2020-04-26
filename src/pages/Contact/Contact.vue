@@ -12,16 +12,20 @@
         @submit.prevent="handleSubmit"
       >
         <input type="hidden" name="form-name" value="new-contact" />
-        <input type="email" name="email" placeholder="your email" />
-        <select name="project-type">
+        <input v-model="form.email" type="email" name="email" placeholder="your email" />
+        <select v-model="form['project-type']" name="project-type">
           <option>I want to talk about</option>
-          <option value="1">Coaching</option>
-          <option value="1">Speaking</option>
-          <option value="1">Short-duration project</option>
-          <option value="1">Long-term project</option>
-          <option value="1">Code review</option>
+          <option value="coaching">Coaching</option>
+          <option value="Speaking">Speaking</option>
+          <option value="Short-term project">Short-term project</option>
+          <option value="Long-term project">Long-term project</option>
+          <option value="Code review">Code review</option>
         </select>
-        <textarea name="project-details" placeholder="some more details"></textarea>
+        <textarea
+          v-model="form['project-details']"
+          name="project-details"
+          placeholder="some more details"
+        ></textarea>
         <button>
           <span v-if="!sent">
             send<svg
@@ -52,42 +56,45 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 
 export default {
-  name: 'contact',
+  name: "Contact",
   data() {
     return {
       sent: false,
       form: {
-        email: '',
-        'project-type': '',
-        'project-details': '',
+        email: "",
+        "project-type": "",
+        "project-details": "",
       },
     };
   },
   methods: {
     encode(data) {
       return Object.keys(data)
-        .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
-        .join('&');
+        .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+        .join("&");
     },
     handleSubmit() {
       const axiosConfig = {
-        header: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        header: { "Content-Type": "application/x-www-form-urlencoded" },
       };
-      axios.post(
-        '/',
-        this.encode({
-          'form-name': 'new-contact',
-          ...this.form,
-        }),
-        axiosConfig,
-      ).then(() => {
-        this.sent = true;
-      }).catch(() => {
-        this.sent = false;
-      });
+      axios
+        .post(
+          "/",
+          this.encode({
+            "form-name": "new-contact",
+            ...this.form,
+          }),
+          axiosConfig
+        )
+        .then(() => {
+          this.sent = true;
+        })
+        .catch(() => {
+          this.sent = false;
+        });
     },
   },
 };

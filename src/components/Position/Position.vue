@@ -18,11 +18,15 @@
 
 <script>
 export default {
-  name: 'position',
-  props: ['position'],
+  name: "Position",
+  props: {
+    position: {
+      type: Object,
+      default: () => {},
+    },
+  },
   data() {
-    return {
-    };
+    return {};
   },
 };
 </script>
