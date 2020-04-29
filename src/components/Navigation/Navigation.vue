@@ -1,8 +1,8 @@
-<style src="./navigation.scss" lang="scss" scoped></style>
+<style src="./navigation.scss" lang="scss"></style>
 
 <template>
   <nav
-    class="container flex"
+    class="container container--navigation flex"
     role="navigation"
     itemscope
     itemtype="http://schema.org/BreadcrumbList"
@@ -23,8 +23,8 @@
       itemscope
       itemtype="http://schema.org/ListItem"
     >
-      <router-link to="/resume" itemprop="item">
-        <div class="text" itemprop="name">curriculum vitae</div>
+      <router-link to="/selected-work" itemprop="item">
+        <div class="text" itemprop="name">selected work</div>
       </router-link>
     </div>
     <div
@@ -33,8 +33,8 @@
       itemscope
       itemtype="http://schema.org/ListItem"
     >
-      <router-link to="/work" itemprop="item">
-        <div class="text" itemprop="name">work</div>
+      <router-link to="/resume" itemprop="item">
+        <div class="text" itemprop="name">curriculum vitae</div>
       </router-link>
     </div>
     <div

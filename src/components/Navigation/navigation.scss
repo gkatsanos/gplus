@@ -1,10 +1,10 @@
 @import '../../sass/variables';
 @import '../../sass/mixins/all';
 
-.container {
-  justify-content: flex-end;
-  padding-right: 30px;
+.container--navigation {
+  right: 20px;
   margin-top: 10px;
+  position: absolute;
   @include mq('tablet-wide') {
     margin-top: 20px;
   }

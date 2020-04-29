@@ -1,7 +1,7 @@
 <style src="./resume.scss" lang="scss" scoped></style>
 
 <template>
-  <div class="resume full-height flex-desktop">
+  <div class="resume flex--align-center full-height flex-desktop">
     <div class="work-experience">
       <h2>Work Experience</h2>
       <position v-for="position in positions" :key="position.id" :position="position" />

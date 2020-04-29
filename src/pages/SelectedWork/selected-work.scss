@@ -17,3 +17,27 @@
     opacity: 0;
   }
 }
+
+.left {
+  border-right: 1px solid $darkgray;
+}
+
+.right,
+.left {
+  width: 50%;
+  height: 100vh;
+}
+
+.client--description {
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 1.4;
+  padding: 60px;
+  @include mq('desktop-wide') {
+    padding: 150px;
+  }
+}
+
+.client--logo {
+    max-width: 60%;
+}

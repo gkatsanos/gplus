@@ -1,10 +1,9 @@
 @import '../../sass/variables';
 @import '../../sass/mixins/all';
 
-.contact {
-  align-items: center;
-  margin: auto;
+.say-hello {
   max-width: 620px;
+  flex-direction: column;
 }
 
 input, select, textarea {

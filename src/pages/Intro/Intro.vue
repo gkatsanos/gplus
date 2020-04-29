@@ -1,7 +1,7 @@
 <style src="./intro.scss" lang="scss" scoped></style>
 
 <template>
-  <div class="intro flex flex-distribute">
+  <div class="intro full-height flex flex-distribute">
     <div class="title-subtitle">
       <h2 class="subtitle">
         <template v-for="(character, index) in headlineSplit">
@@ -26,7 +26,7 @@
       <span class="highlight">//</span>
       training & mentoring
     </div>
-    <div class="social-links" role="navigation">
+    <div class="social-links flex" role="navigation">
       <a rel="nofollow" href="https://github.com/gkatsanos/" target="_blank">
         <i class="icon-github"></i>
         github

@@ -1,11 +1,15 @@
 #app {
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .flex {
   display: flex;
+}
+
+.flex--align-center {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .flex-desktop {
@@ -22,5 +26,6 @@
 }
 
 .full-height {
-  min-height: calc(100vh - 45px);
+  min-height: 100vh;
 }
+

@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" :class="$route.name">
     <navigation></navigation>
-    <div class="full-height flex main-content" role="main">
+    <div class="main-content" role="main">
       <transition name="fade" appear mode="out-in">
         <router-view></router-view>
       </transition>
