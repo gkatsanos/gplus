@@ -16,30 +16,29 @@
     position: absolute;
     margin-top: 20px;
   }
-}
-
-a {
-  display: block;
-  margin: 0 9px;
-  padding-bottom: 2px;
-  &:active {
-    &:before {
-      transform: scale(0.8);
+  a {
+    display: block;
+    margin: 0 9px;
+    padding-bottom: 2px;
+    &:active {
+      &:before {
+        transform: scale(0.8);
+      }
+    }
+    &:hover {
+      border-bottom: 1px solid $red;
+    }
+    &.router-link-active {
+      border-bottom: 1px solid $red;
     }
   }
-  &:hover {
-    border-bottom: 1px solid $red;
-  }
-  &.router-link-active {
-    border-bottom: 1px solid $red;
-  }
-}
 
-.menu-item {
-  display: flex;
-  &:not(:last-child):after {
-    content: "//";
-    font-size: 25px;
-    color: $red;
+  .menu-item {
+    display: flex;
+    &:not(:last-child):after {
+      content: "//";
+      font-size: 25px;
+      color: $red;
+    }
   }
 }

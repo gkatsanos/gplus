@@ -1,4 +1,4 @@
-<style src="./intro.scss" lang="scss" scoped></style>
+<style src="./intro.scss" lang="scss"></style>
 
 <template>
   <div class="intro full-height flex flex-distribute">
