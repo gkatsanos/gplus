@@ -19,7 +19,7 @@ export default [
     name: "European Commission",
     url: false,
     description:
-      "For 3 years, I worked with the EC Internal Communications Unit, developping the European Union's employee intranet (30K users), coached and trained webmasters in HTML/CSS principles, implemented a massive redesign, and developed new features for the platform.",
+      "I worked as an external consultant with the EC Internal Communications Unit, developping the European Union's employee intranet (30K users), coached and trained webmasters in HTML/CSS principles, implemented a massive redesign, and developed new features for the platform.",
   },
   {
     id: 0,
@@ -30,7 +30,7 @@ export default [
     name: "dh",
     url: "https://www.lieferando.de/",
     description:
-      "As a member of the Germany team (previous Lieferheld, than acquired by TakeAway operating under the Lieferando brand), I developed and delivered features for the online delivery platform. Workign with React, Backbone, SASS and Webpack.",
+      "As a member of the Germany team (previously Lieferheld, than acquired by TakeAway operating under the Lieferando brand), I developed and delivered features for the online delivery platform. Workign with React, Backbone, SASS and Webpack.",
   },
   {
     id: 1,

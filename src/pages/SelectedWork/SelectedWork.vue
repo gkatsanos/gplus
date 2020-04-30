@@ -3,12 +3,13 @@
 <template>
   <div class="selected-work">
     <!--    <project v-for="project in projects" :key="project.id" :project="project"></project>-->
-    <div v-for="(project, index) in projects" :key="project.id" class="client flex">
+    <div
+      v-for="(project, index) in projects"
+      :key="project.id"
+      :class="[index % 2 !== 0 ? 'order-reverse' : 'order-column-normal', 'client flex']"
+    >
       <template v-if="index % 2 === 0">
-        <section
-          class="left flex flex--align-center client--logo"
-          :style="stylesObject(project.bgImg)"
-        >
+        <section class="left flex flex--align-center" :style="stylesObject(project.bgImg)">
           <img
             :src="require(`@/assets/logos/${project.img}`)"
             :alt="project.name"

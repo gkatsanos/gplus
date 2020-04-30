@@ -24,15 +24,23 @@
 
 .right,
 .left {
-  width: 50%;
+  width: 100%;
+  @include mq('desktop') {
+    width: 50%;
+  }
   height: 100vh;
 }
 
 .client--description {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 100;
-  line-height: 1.4;
-  padding: 60px;
+  padding: 30px;
+  line-height: 1.6;
+  @include mq('tablet') {
+    line-height: 1.4;
+    font-size: 26px;
+    padding: 60px;
+  }
   @include mq('desktop-wide') {
     padding: 150px;
   }
@@ -40,4 +48,19 @@
 
 .client--logo {
     max-width: 60%;
+}
+
+// responsive black magic
+.order-column-normal {
+  flex-direction: column;
+  @include mq('desktop') {
+    flex-direction: row;
+  }
+}
+
+.order-reverse {
+  flex-direction: column-reverse;
+  @include mq('desktop') {
+    flex-direction: row;
+  }
 }

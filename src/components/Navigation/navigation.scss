@@ -2,10 +2,18 @@
 @import '../../sass/mixins/all';
 
 .container--navigation {
-  right: 20px;
-  margin-top: 10px;
-  position: absolute;
-  @include mq('tablet-wide') {
+  position: fixed;
+  overflow: scroll;
+  top: 10px;
+  white-space: nowrap;
+  left: 10px;
+  width: 100%;
+  @include mq('tablet') {
+    width: auto;
+    overflow: hidden;
+    left: initial;
+    right: 20px;
+    position: absolute;
     margin-top: 20px;
   }
 }

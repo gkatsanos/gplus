@@ -1,7 +1,7 @@
 <style src="./contact.scss" lang="scss"></style>
 
 <template>
-  <div class="say-hello flex--align-center full-height flex-desktop">
+  <div class="say-hello flex--align-center full-height flex">
     <h2>Need help with a new project? Get in touch!</h2>
     <form
       name="new-contact"
