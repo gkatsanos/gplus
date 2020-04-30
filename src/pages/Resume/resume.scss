@@ -3,6 +3,10 @@
 
 .resume {
   max-width: 1400px;
+  padding: 20px;
+  @include mq('desktop-wide') {
+    padding: 0;
+  }
 }
 
 .work-experience {

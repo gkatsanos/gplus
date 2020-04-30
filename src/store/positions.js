@@ -2,15 +2,25 @@ export default [
   {
     id: 0,
     timePeriod: {
-      from: "02.2018",
+      from: "08.2019",
       to: "Present",
+    },
+    companyName: "Comgy",
+    jobDescription:
+      "As part of the Engineering team, I developed and maintained an SPA built with VueJS / Webpack / SASS. THe Backend was implemented on Ruby On Rails. Testing was done with Jest, Cypress and Capybara",
+  },
+  {
+    id: 1,
+    timePeriod: {
+      from: "02.2018",
+      to: "08.2019",
     },
     companyName: "HERE Technologies",
     jobDescription:
       "As part of the Frontend team, I developed and maintained an SPA built with VueJS / Webpack / Mocha and SASS. I was also part of the Backend API team which built Microservices in NodeJS using Docker, AWS, Jenkins and Selenium.",
   },
   {
-    id: 1,
+    id: 2,
     timePeriod: {
       from: "01.2015",
       to: "01.2018",
@@ -20,7 +30,7 @@ export default [
       "In Rocket, as Senior/Lead Front-end Developer, I implemented User Interfaces and Front-end stacks for ventures such as Foodora, Bonativo, Zinsgold, Zalando. I was responsible for ensuring coding standards, and setting up asset building with Gulp or Webpack.",
   },
   {
-    id: 2,
+    id: 3,
     timePeriod: {
       from: "04.2013",
       to: "12.2014",
@@ -30,7 +40,7 @@ export default [
       "ONE Agency is a technical web agency, part of Ausy Group with offices in Leuven, Brussels and Ghent. As a Senior Front-end Developer, I developed the Front-end stack of a Content Management System provided to the Belgian Government.",
   },
   {
-    id: 3,
+    id: 4,
     timePeriod: {
       from: "11.2010",
       to: "03.2013",
@@ -40,7 +50,7 @@ export default [
       "As part of the Human Resources and Internal Communications unit, I improved the User Experience and Front-end Performance of the European Commission Intranet portal. I also coached, supported and mentored Junior webmasters in topics of semantic & scalable HTML and CSS.",
   },
   {
-    id: 4,
+    id: 5,
     timePeriod: {
       from: "04.2010",
       to: "10.2010",

@@ -19,7 +19,6 @@ body {
   padding: 20px;
   &.selected-work {
     background: none;
-    padding: 0;
   }
   @include mq('tablet-wide') {
     height: 100vh;
