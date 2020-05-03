@@ -1,0 +1,36 @@
+@import '../../sass/variables';
+@import '../../sass/mixins/all';
+
+.social-links {
+  a {
+    padding-right: 10px;
+    &:hover {
+      i {
+        color: $red;
+      }
+    }
+  }
+  .icon {
+    @include mq('tablet', 'max') {
+      display: none;
+    }
+  }
+}
+
+.fade-enter-active {
+  .social-links {
+    transition-delay: 0.3s;
+  }
+}
+
+.fade-leave-to {
+  .social-links {
+    opacity: 0;
+  }
+}
+
+.fade-enter {
+  .social-links {
+    opacity: 0;
+  }
+}

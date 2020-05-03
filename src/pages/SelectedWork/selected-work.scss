@@ -23,10 +23,11 @@
 .right,
 .left {
   width: 100%;
+  height: 50vh;
   @include mq('desktop') {
+    height: 100vh;
     width: 50%;
   }
-  height: 100vh;
 }
 
 .client--description {

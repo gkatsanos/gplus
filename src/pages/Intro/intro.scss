@@ -2,16 +2,6 @@
 @import '../../sass/mixins/all';
 
 .intro {
-  a {
-    padding-right: 10px;
-
-    &:hover {
-      i {
-        color: $red;
-      }
-    }
-  }
-
   h2.subtitle {
     text-align: center;
     max-width: 700px;
@@ -48,14 +38,6 @@
     font-size: $font-medium;
     text-align: center;
   }
-  .social-links {
-    .icon {
-      @include mq('tablet', 'max') {
-        display: none;
-      }
-    }
-  }
-
 }
 
 // Animation specific styling

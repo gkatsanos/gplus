@@ -1,7 +1,7 @@
 <style src="./contact.scss" lang="scss"></style>
 
 <template>
-  <div class="say-hello flex--align-center full-height flex">
+  <div class="say-hello flex--align-center full-height flex flex-distribute">
     <h2>Need help with a new project? Get in touch!</h2>
     <form
       name="new-contact"
@@ -92,14 +92,19 @@
         directly.
       </div>
     </form>
+    <social />
   </div>
 </template>
 
 <script>
 import axios from "axios";
+import Social from "@/components/Social/Social";
 
 export default {
   name: "Contact",
+  components: {
+    Social,
+  },
   data() {
     return {
       sent: false,
