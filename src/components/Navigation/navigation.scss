@@ -3,14 +3,14 @@
 
 .container--navigation {
   position: fixed;
-  overflow: scroll;
   top: 0;
   padding-top: 10px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
+  padding-left: 5px;
   white-space: nowrap;
-  left: 10px;
+  left: 0;
   width: 100%;
-  background: linear-gradient(180deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.85) 69%, rgba(255,255,255,0) 100%);
+  background: #000;
   @include mq('tablet') {
     background: none;
     width: auto;
@@ -20,27 +20,33 @@
     position: absolute;
     margin-top: 20px;
   }
-  a {
-    display: block;
-    margin: 0 9px;
-    padding-bottom: 2px;
-    &:active {
-      &:before {
-        transform: scale(0.8);
-      }
-    }
-    &:hover {
-      border-bottom: 1px solid $red;
-    }
-    &.router-link-active {
-      border-bottom: 1px solid $red;
-    }
-  }
 
   .menu-item {
+    a {
+      display: block;
+      margin: 0 4px;
+      padding-bottom: 2px;
+      &:active {
+        &:before {
+          transform: scale(0.8);
+        }
+      }
+      &:hover {
+        border-bottom: 1px solid $red;
+      }
+      &.router-link-active {
+        border-bottom: 1px solid $red;
+      }
+      @include mq('tablet') {
+        margin: 0 9px;
+      }
+    }
     display: flex;
     &:not(:last-child):after {
-      content: "//";
+      content: "/";
+      @include mq('tablet') {
+        content: "//";
+      }
       font-size: 25px;
       color: $red;
     }
