@@ -34,7 +34,8 @@ input, select, textarea {
 select {
   padding: 0;
   height: 25px;
-  width: 100%;
+  padding-left: 10px;
+  width: calc(100% - 10px); // removing the padding to make select same width as the rest
   box-sizing: content-box;
   border: 10px solid transparent;
   border-right-width: 0;
