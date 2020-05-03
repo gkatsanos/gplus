@@ -15,14 +15,9 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-position: right top;
   background-size: cover;
-  height: calc(100vh - 40px);
-  padding: 20px;
+  height: 100vh;
   &.selected-work {
     background: none;
-  }
-  @include mq('tablet-wide') {
-    height: 100vh;
-    padding: 0;
   }
 }
 

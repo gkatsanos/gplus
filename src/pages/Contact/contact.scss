@@ -4,6 +4,9 @@
 .say-hello {
   max-width: 620px;
   flex-direction: column;
+  @include mq('tablet', 'max') {
+    padding: 0 15px;
+  }
 }
 
 input, select, textarea {

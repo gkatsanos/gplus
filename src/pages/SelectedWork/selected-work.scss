@@ -3,7 +3,6 @@
 
 // Animate page
 .fade-enter-active {
-  @include loopchildren(1,12,0.1,0.01,'.project');
 }
 .fade-leave-active {
   transition: all .3s ease;
@@ -13,13 +12,12 @@
 }
 .fade-enter {
   opacity: 0;
-  .project {
-    opacity: 0;
-  }
 }
 
 .left {
-  border-right: 1px solid $darkgray;
+  @include mq('desktop') {
+    border-right: 1px solid $darkgray;
+  }
 }
 
 .right,

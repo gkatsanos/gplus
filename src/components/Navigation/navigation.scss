@@ -4,11 +4,15 @@
 .container--navigation {
   position: fixed;
   overflow: scroll;
-  top: 10px;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
   white-space: nowrap;
   left: 10px;
   width: 100%;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 17%, rgba(0,0,0,0.85) 69%, rgba(255,255,255,0) 100%);
   @include mq('tablet') {
+    background: none;
     width: auto;
     overflow: hidden;
     left: initial;
