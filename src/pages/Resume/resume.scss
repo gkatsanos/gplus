@@ -1,22 +1,22 @@
-@import '../../sass/variables';
-@import '../../sass/mixins/all';
+@import "../../sass/variables";
+@import "../../sass/mixins/all";
 
 .resume {
   max-width: 1400px;
   padding: 20px;
-  @include mq('desktop-wide') {
+  @include mq("desktop-wide") {
     padding: 0;
   }
 }
 
 .work-experience {
-  @include mq('desktop') {
+  @include mq("desktop") {
     flex: 60%;
   }
 }
 
 .right-column {
-  @include mq('desktop') {
+  @include mq("desktop") {
     flex: 38%;
     margin-left: 100px;
   }
@@ -39,21 +39,21 @@ img {
 // Animate page
 .resume,
 .position {
-  transition: all .5s ease-in;
+  transition: all 0.5s ease-in;
 }
 .fade-enter-active {
   .work-experience {
-    @include loopchildren(2,5,0.1,0.1,'.position');
+    @include loopchildren(2, 5, 0.1, 0.1, ".position");
   }
   .education {
-    @include loopchildren(2,4,0.4,0.1,'.position');
+    @include loopchildren(2, 4, 0.4, 0.1, ".position");
   }
   .certifications {
-    @include loopchildren(2,3,0.7,0.1,'.position');
+    @include loopchildren(2, 3, 0.7, 0.1, ".position");
   }
 }
 .fade-leave-active {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .fade-leave-to {
   opacity: 0;

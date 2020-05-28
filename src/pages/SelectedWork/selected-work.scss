@@ -1,11 +1,11 @@
-@import '../../sass/variables';
-@import '../../sass/mixins/all';
+@import "../../sass/variables";
+@import "../../sass/mixins/all";
 
 // Animate page
 .fade-enter-active {
 }
 .fade-leave-active {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .fade-leave-to {
   opacity: 0;
@@ -15,7 +15,7 @@
 }
 
 .left {
-  @include mq('desktop') {
+  @include mq("desktop") {
     border-right: 1px solid $darkgray;
   }
 }
@@ -23,8 +23,8 @@
 .right,
 .left {
   width: 100%;
-  height: 50vh;
-  @include mq('desktop') {
+  min-height: 50vh;
+  @include mq("desktop") {
     height: 100vh;
     width: 50%;
   }
@@ -35,31 +35,31 @@
   font-weight: 100;
   padding: 30px;
   line-height: 1.6;
-  @include mq('tablet') {
+  @include mq("tablet") {
     line-height: 1.4;
     font-size: 26px;
     padding: 60px;
   }
-  @include mq('desktop-wide') {
+  @include mq("desktop-wide") {
     padding: 150px;
   }
 }
 
 .client--logo {
-    max-width: 60%;
+  max-width: 60%;
 }
 
 // responsive black magic
 .order-column-normal {
   flex-direction: column;
-  @include mq('desktop') {
+  @include mq("desktop") {
     flex-direction: row;
   }
 }
 
 .order-reverse {
   flex-direction: column-reverse;
-  @include mq('desktop') {
+  @include mq("desktop") {
     flex-direction: row;
   }
 }

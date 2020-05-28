@@ -1,5 +1,5 @@
-@import '../../sass/variables';
-@import '../../sass/mixins/responsive';
+@import "../../sass/variables";
+@import "../../sass/mixins/responsive";
 
 .project {
   position: relative;
@@ -7,10 +7,10 @@
   height: 145px;
   display: flex;
   flex: 0 0 100%;
-  @include mq('tablet') {
+  @include mq("tablet") {
     flex: 0 0 49%;
   }
-  @include mq('tablet-wide') {
+  @include mq("tablet-wide") {
     flex: 0 0 31%;
   }
   &:hover {
@@ -32,15 +32,15 @@
 }
 
 .foodora:hover {
-  background-color: #D70F64;
+  background-color: #d70f64;
 }
 
 .zinsgold:hover {
-  background-color: #0064E1;
+  background-color: #0064e1;
 }
 
 .meisterclass:hover {
-  background-color: #7285B0;
+  background-color: #7285b0;
 }
 
 .movierama:hover,

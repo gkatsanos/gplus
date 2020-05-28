@@ -1,5 +1,5 @@
-@import '../../sass/variables';
-@import '../../sass/mixins/all';
+@import "../../sass/variables";
+@import "../../sass/mixins/all";
 
 .social-links {
   a {
@@ -11,7 +11,7 @@
     }
   }
   .icon {
-    @include mq('tablet', 'max') {
+    @include mq("tablet", "max") {
       display: none;
     }
   }

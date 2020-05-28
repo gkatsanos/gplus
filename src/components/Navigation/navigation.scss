@@ -1,5 +1,5 @@
-@import '../../sass/variables';
-@import '../../sass/mixins/all';
+@import "../../sass/variables";
+@import "../../sass/mixins/all";
 
 .container--navigation {
   position: fixed;
@@ -11,7 +11,7 @@
   left: 0;
   width: 100%;
   background: #000;
-  @include mq('tablet') {
+  @include mq("tablet") {
     background: none;
     width: auto;
     overflow: hidden;
@@ -37,14 +37,14 @@
       &.router-link-active {
         border-bottom: 1px solid $red;
       }
-      @include mq('tablet') {
+      @include mq("tablet") {
         margin: 0 9px;
       }
     }
     display: flex;
     &:not(:last-child):after {
       content: "/";
-      @include mq('tablet') {
+      @include mq("tablet") {
         content: "//";
       }
       font-size: 25px;

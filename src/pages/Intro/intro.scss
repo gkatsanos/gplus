@@ -1,5 +1,5 @@
-@import '../../sass/variables';
-@import '../../sass/mixins/all';
+@import "../../sass/variables";
+@import "../../sass/mixins/all";
 
 .intro {
   h2.subtitle {
@@ -7,14 +7,14 @@
     max-width: 700px;
     font-weight: 500;
     font-size: $font-normal;
-    @include mq('tablet') {
+    @include mq("tablet") {
       font-size: 30px;
       margin-top: 42px;
     }
   }
 
   .character {
-    @include mq('tablet') {
+    @include mq("tablet") {
       width: 40px;
       height: 40px;
     }
@@ -29,7 +29,7 @@
   .space {
     display: inline-block;
     width: 15px;
-    @include mq('tablet') {
+    @include mq("tablet") {
       width: 20px;
     }
   }
@@ -42,16 +42,16 @@
 
 // Animation specific styling
 .subtitle {
-  @include loopchildren(0, 45, 0.1, 0.03, '.character');
+  @include loopchildren(0, 45, 0.1, 0.03, ".character");
 }
 
 .character {
-  transition: opacity .1s ease-out;
+  transition: opacity 0.1s ease-out;
 }
 
 .skills,
 .social-links {
-  transition: opacity .5s ease-in;
+  transition: opacity 0.5s ease-in;
 }
 
 .fade-enter-active {
@@ -65,7 +65,7 @@
 }
 
 .fade-leave-active {
-  transition: opacity .5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .fade-leave-to {

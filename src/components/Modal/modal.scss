@@ -1,5 +1,5 @@
-@import '../../sass/variables';
-@import '../../sass/mixins/all';
+@import "../../sass/variables";
+@import "../../sass/mixins/all";
 
 .md-modal {
   position: fixed;
@@ -12,7 +12,7 @@
   backface-visibility: hidden;
   -webkit-filter: blur(0);
   width: 85%;
-  @include mq('tablet') {
+  @include mq("tablet") {
     max-width: 400px;
   }
 }
@@ -23,7 +23,7 @@
   border-radius: 3px;
   margin: 0 auto;
   padding: 30px;
-  box-shadow: 10px 10px 132px 16px rgba(0,0,0,0.35);
+  box-shadow: 10px 10px 132px 16px rgba(0, 0, 0, 0.35);
 }
 
 .md-show {
