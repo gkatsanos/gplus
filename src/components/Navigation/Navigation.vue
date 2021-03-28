@@ -33,9 +33,9 @@
       itemscope
       itemtype="http://schema.org/ListItem"
     >
-      <router-link to="/resume" itemprop="item">
+      <a href="https://www.linkedin.com/in/georgekatsanos" itemprop="item" target="_blank">
         <div class="text" itemprop="name">curriculum vitae</div>
-      </router-link>
+      </a>
     </div>
     <div
       class="menu-item"

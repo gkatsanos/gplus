@@ -4,9 +4,7 @@
 .container--navigation {
   position: fixed;
   top: 0;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  padding-left: 5px;
+  padding: $links-padding 0 $links-padding 5px;
   white-space: nowrap;
   left: 0;
   width: 100%;
@@ -18,7 +16,7 @@
     left: initial;
     right: 20px;
     position: absolute;
-    margin-top: 20px;
+    margin-top: $top-element-padding;
   }
 
   .menu-item {

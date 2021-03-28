@@ -1,0 +1,7 @@
+@import "../../sass/variables";
+
+.logo {
+  position: absolute;
+  padding-top: $top-element-padding + $links-padding;
+  padding-left: $top-element-padding + $links-padding;
+}
